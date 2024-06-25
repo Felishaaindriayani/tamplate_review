@@ -110,13 +110,13 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="footer-order">
                         <div class="logo">
-                            <img src="front/assets/images/logos/footer-logo.webp" alt="logo">
+                            <img src="{{asset('front/assets/images/logos/footer-logo.webp')}}" alt="logo">
                         </div>
                         <div class="footer-link order-link">
                             <ul>
                                 <li><a href="order.html">Track Order</a></li>
                                 <li><a href="cart.html">Delivery & Returns</a></li>
-                                <li><a href="about.html">Warranty</a></li>
+                                <li><a href="{{url('about')}}">Warranty</a></li>
                             </ul>
                         </div>
 
@@ -129,10 +129,10 @@
                         </h4>
                         <div class="footer-link about-link">
                             <ul>
-                                <li><a href="about.html">Rave’s Story</a></li>
-                                <li><a href="about.html">Work With Us</a></li>
-                                <li><a href="about.html">Coporate News</a></li>
-                                <li><a href="about.html">Investors</a></li>
+                                <li><a href="{{url('about')}}">Rave’s Story</a></li>
+                                <li><a href="{{url('about')}}">Work With Us</a></li>
+                                <li><a href="{{url('about')}}">Coporate News</a></li>
+                                <li><a href="{{url('about')}}">Investors</a></li>
                             </ul>
                         </div>
                     </div>
@@ -144,10 +144,10 @@
                         </h4>
                         <div class="footer-link useful-link">
                             <ul>
-                                <li><a href="about.html">Secure Payment</a></li>
+                                <li><a href="{{url('about')}}">Secure Payment</a></li>
                                 <li><a href="privacy.html">Privacy Policy</a></li>
                                 <li><a href="terms.html">Terms of Use</a></li>
-                                <li><a href="product-sidebar.html">Archived Products</a></li>
+                                <li><a href="{{url('shop')}}">Archived Products</a></li>
                             </ul>
                         </div>
                     </div>
